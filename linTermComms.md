@@ -11,8 +11,10 @@
 **_rm -rf <directory name>_** :: recursively remove/delete a directory and its contents. works for hidden directories as well, simply include the "." before the directory name.
 
 **_rm <filename>_** :: remove/delete a single file.
+  
+**_sudo -i_** :: use terminal as system root user. for example, may need to issue this, followed by nautilus, in order to launch the file browser and be able to copy over files from a system to an external hard drive while a live boot environment so that you can bypass errors of the kind, "cannot read permissions".
 
-**_sudo -s_** :: establish root access as root user in terminal.
+**_sudo -s_** :: establish root access as user in terminal.
 
 **_shutdown -h now_** :: shutdown machine without saving any OS session data.
 
