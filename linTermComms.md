@@ -1,3 +1,5 @@
+**_ls -al_** :: list/show all files in a directory, including hidden files.
+
 **_program name &_** :: launch a program (no quotes).
 
 **_ps a_** :: see all running processes.
@@ -5,8 +7,6 @@
 **_rm -rf <directory name>_** :: recursively remove/delete a directory and its contents. works for hidden directories as well, simply include the "." before the directory name.
 
 **_rm <filename>_** :: remove/delete a single file.
-
-**_ls -al_** :: list/show all files in a directory, including hidden files.
 
 **_sudo apt-get purge <program name>_** :: purge/delete an installed program from your system.
 
