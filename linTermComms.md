@@ -13,3 +13,7 @@
 **_rm <filename>_** :: remove/delete a single file.
 
 **_sudo -s_** :: establish root access as root user in terminal.
+
+**_shutdown -h now_** :: shutdown machine without saving any OS session data.
+
+**_shutdown -r now_** :: restart machine.
