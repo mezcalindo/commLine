@@ -17,3 +17,7 @@
 **_shutdown -h now_** :: shutdown machine without saving any OS session data.
 
 **_shutdown -r now_** :: restart machine.
+
+**_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
+
+**_yaourt -Syu --aur_** :: update all AUR packages in Manjaro.
