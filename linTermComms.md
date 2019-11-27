@@ -4,6 +4,10 @@
 
 **_ls -al_** :: list/show all files in a directory, including hidden files.
 
+**_lsblk -f_** :: list all drives with partitions in tree format. output includes file types, identifiers, labels, serial numbers, and mount points.
+
+**_mkfs.???_** :: make a filesystem on a drive. for instance, ```sudo mkfs.exfat /dev/sdb1```.
+
 **_program name &_** :: launch a program (no quotes).
 
 **_ps a_** :: see all running processes.
