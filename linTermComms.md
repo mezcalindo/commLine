@@ -6,6 +6,8 @@
 
 **_lsblk -f_** :: list all drives with partitions in tree format. output includes file types, identifiers, labels, serial numbers, and mount points.
 
+**_lsb_release -a_** :: print the version of the linux distro running on the system.
+
 **_mkfs.???_** :: make a filesystem on a drive. for instance, ```sudo mkfs.exfat /dev/sdb1```.
 
 **_program name &_** :: launch a program (no quotes).
