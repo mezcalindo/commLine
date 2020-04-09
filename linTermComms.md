@@ -26,6 +26,8 @@
 
 **_shutdown -r now_** :: restart machine.
 
+**_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
+
 **_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
 
 **_yaourt -Syu --aur_** :: update all AUR packages in Manjaro.
