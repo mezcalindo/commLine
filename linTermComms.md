@@ -36,4 +36,6 @@
 
 **_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
 
+**_xfdesktop -R_** :: restart the Xfce desktop (arch linux, manjaro, etc).
+
 **_yaourt -Syu --aur_** :: update all AUR packages in Manjaro.
