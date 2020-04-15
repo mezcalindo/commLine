@@ -1,3 +1,5 @@
+**_./_** :: indicates the working directory.
+
 **_sudo add-apt-repository <repository name>_** :: add a repository so that you can install a program that is not available for install through your existing repositories. for example, the package libimobiledevice requires the ppa:mniess/libimobiledevice repository.
 
 **_sudo apt-get purge <program name>_** :: purge/delete an installed program from your system.
