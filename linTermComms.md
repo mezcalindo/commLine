@@ -8,6 +8,10 @@
 
 **_cat /etc/*release_** :: identify linux distro and version, expanded information.
 
+**_eject /dev/sr0_** :: eject a disk (DVD).
+
+**_fsck /dev/sd[xy]_** :: check a filesystem on a drive for errors.
+
 **_ls -al_** :: list/show all files in a directory, including hidden files.
 
 **_lsblk -f_** :: list all drives with partitions in tree format. output includes file types, identifiers, labels, serial numbers, and mount points.
@@ -15,6 +19,8 @@
 **_lsb_release -a_** :: print the version of the linux distro running on the system.
 
 **_mkfs.???_** :: make a filesystem on a drive. for instance, ```sudo mkfs.exfat /dev/sdb1```.
+
+**_pacman -Qdt_** :: list orphan packages.
 
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
 
@@ -35,6 +41,8 @@
 **_shutdown -r now_** :: restart machine.
 
 **_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
+
+**_xfce4-session-logout --logout_** :: log out of the xfce desktop.
 
 **_xfdesktop -R_** :: restart the Xfce desktop (arch linux, manjaro, etc).
 
