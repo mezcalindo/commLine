@@ -44,6 +44,8 @@
 
 **_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
 
+**_sudo update-grub_** :: force grub to reload.
+
 **_xfce4-session-logout --logout_** :: log out of the xfce desktop.
 
 **_xfdesktop -R_** :: restart the Xfce desktop (arch linux, manjaro, etc).
