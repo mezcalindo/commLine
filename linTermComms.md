@@ -33,6 +33,8 @@
 **_rm -rf <directory name>_** :: recursively remove/delete a directory and its contents. works for hidden directories as well, simply include the "." before the directory name.
 
 **_rm <filename>_** :: remove/delete a single file.
+
+**_snap refresh_** :: manually check for updates to installed snaps.
   
 **_sudo -i_** :: use terminal as system root user. for example, may need to issue this, followed by nautilus, in order to launch the file browser and be able to copy over files from a system to an external hard drive while a live boot environment so that you can bypass errors of the kind, "cannot read permissions".
 
