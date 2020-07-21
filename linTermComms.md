@@ -37,6 +37,8 @@
 **_sudo snap refresh_** :: manually check for updates to installed snaps.
 
 **_sudo snap remove package-name_** :: remove a particular snap install.
+
+**_snap info package-name_** :: get detailed info on an installed snap.
   
 **_sudo -i_** :: use terminal as system root user. for example, may need to issue this, followed by nautilus, in order to launch the file browser and be able to copy over files from a system to an external hard drive while a live boot environment so that you can bypass errors of the kind, "cannot read permissions".
 
