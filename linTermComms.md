@@ -48,6 +48,14 @@
 
 **_shutdown -r now_** :: restart machine.
 
+**_systemctl enable service-name_** :: enable a particular service. for instance, ```systemctl enable cups```.
+
+**_systemctl is-enabled service-name_** :: is the service enabled? for instance, ```systemctl is-enabled cups```.
+
+**_systemctl start service-name_** :: start a particular service. for instance, ```systemctl start cups```.
+
+**_systemctl status service-name_** :: check the status of a particular service. for instance, ```systemctl status cups```.
+
 **_uname -a_** :: get info like your computer name and the version and architecture of your linux kernel.
 
 **_sudo update-grub_** :: force grub to reload.
