@@ -25,6 +25,8 @@
 **_pacman -Qdt_** :: list orphan packages.
 
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
+  
+**_pamac upgrade -a_** :: update all packages on manjaro, including those from AUR. Note, don't precede the command with **_sudo_**; the system will make a request for elevated privileges if necessary.
 
 **_program name &_** :: launch a program (no quotes).
 
