@@ -26,7 +26,9 @@
 
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
   
-**_pamac upgrade -a_** :: update all packages on manjaro, including those from AUR. Note, don't precede the command with **_sudo_**; the system will make a request for elevated privileges if necessary.
+**_sudo pacman -Syyu_** :: update all databases and packages on manjaro, not including those from the AUR.
+  
+**_pamac upgrade -a_** :: update all packages on manjaro, including those from the AUR. Note, don't precede the command with **_sudo_**; the system will make a request for elevated privileges if necessary.
 
 **_program name &_** :: launch a program (no quotes).
 
@@ -66,4 +68,6 @@
 
 **_xfdesktop -R_** :: restart the Xfce desktop (arch linux, manjaro, etc).
 
-**_yaourt -Syu --aur_** :: update all AUR packages in Manjaro.
+**_yaourt -Syyu --aur_** :: update all AUR packages in Manjaro.
+  
+**_yay -Syyu -a_** :: update all packages, including those from the AUR, in Manjaro.
