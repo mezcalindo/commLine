@@ -71,3 +71,5 @@
 **_yaourt -Syyu --aur_** :: update all AUR packages in Manjaro.
   
 **_yay -Syyu_** :: update all packages, including those from the AUR, in Manjaro.
+  
+**_yay -S package-name_** :: update a single specific package. be sure to update package databases first.
