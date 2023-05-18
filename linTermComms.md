@@ -26,7 +26,13 @@
 
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
   
+**_sudo pacman -Sc_** :: purge the pacman cache.
+  
 **_sudo pacman -Syyu_** :: update all databases and packages on manjaro, not including those from the AUR.
+  
+**_pamac clean --build-files_** :: clean out any files that were used for building packages previously. part of system maintenance.
+
+**_pamac remove --orphans_** :: remove orphaned files.
   
 **_pamac upgrade -a_** :: update all packages on manjaro, including those from the AUR. Note, don't precede the command with **_sudo_**; the system will make a request for elevated privileges if necessary.
 
@@ -73,3 +79,5 @@
 **_yay -Syyu_** :: update all packages, including those from the AUR, in Manjaro.
   
 **_yay -S package-name_** :: update a single specific package. be sure to update package databases first.
+
+**_yay -Qii package-name_** :: check various details of a package, including dependencies.
