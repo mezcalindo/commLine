@@ -8,7 +8,7 @@
 
 **_cat /etc/*release_** :: identify linux distro and version, expanded information.
 
-**_eject /dev/sr0_** :: eject a disk (DVD).
+**_eject /dev/sr0_** :: eject a disk (CD, DVD).
 
 **_fsck /dev/sd[xy]_** :: check a filesystem on a drive for errors.
 
