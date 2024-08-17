@@ -22,7 +22,7 @@
 
 **_sudo nano /etc/default/grub_** :: edit the grub config file utilizing nano in the terminal window.
 
-**_pacman -Qdt_** :: list orphan packages.
+**_pacman -Qdt_** :: list orphaned packages.
 
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
   
