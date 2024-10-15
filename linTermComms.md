@@ -24,6 +24,8 @@
 
 **_sudo pacman -Qdt_** or **_sudo pacman -Qdtq_** :: list orphaned packages.
 
+**_sudo pacman -R $(pacman -Qdtq)_** :: remove orphaned packages.
+
 **_sudo pacman -Rsn package-name_** :: remove any package and all dependencies and configuration file modifications. Otherwise, to focus on just the package, utilize **_sudo pacman -R package-name_**.
 
 **_sudo pacman -S archlinux-keyring_** :: update the keyring while troubleshooting pacman update issues.
